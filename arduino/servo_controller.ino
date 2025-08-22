@@ -11,14 +11,16 @@
 #include <servo_controller_msgs/ServoArray.h>
 
 Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
-#define SERVOMIN 150
-#define SERVOMAX 600
+#define SERVOMIN 1000
+#define SERVOMAX 2000
 #define CHANNELS 16
-#define ENABLE_PIN 7
+#define ENABLE_PIN 7  // OE pin on PCA9685
 #define TIMEOUT_MS 1000
 #define HEARTBEAT_INTERVAL_MS 500
-#define PWM_INPUT_1 2
-#define PWM_INPUT_2 3
+
+// for outputs
+#define PWM_INPUT_1 2 // (Sonic Sensor)
+#define PWM_INPUT_2 3 // (Sonic Sensor)
 
 int servoAngles[CHANNELS];
 bool servoEnabled[CHANNELS];
