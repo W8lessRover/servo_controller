@@ -57,8 +57,10 @@ source devel/setup.bash
 
 1. Open `arduino/servo_controller.ino` in Arduino IDE.
 2. Select board: Arduino Uno.
-3. Upload the sketch.
-4. Start rosserial:
+3. Check pinouts, wire up the +5, GND, SCK, SDA, OE, PWM1, PWM2
+4. Change .ino file to match UNO pinout
+5. Upload the sketch.
+6. Start rosserial:
 
 ```bash
 rosrun rosserial_python serial_node.py /dev/ttyACM0
