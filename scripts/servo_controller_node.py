@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 servo_controller_node.py
-Author: Treggon Owens
+Author: Treggon Owens for W8less.io
 Description: Python ROS node to send and receive ServoArray messages
 from the Arduino. Includes error handling if Arduino is disconnected.
 """

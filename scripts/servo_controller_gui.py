@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
 servo_controller_gui.py
-Author: Treggon Owens
+Author: Treggon Owens for W8less.io
 Description: Tkinter GUI to control 16 PCA9685 servos, toggle enable/disable,
 display PWM inputs, includes error handling if Arduino is disconnected.
+8/22/2025 Created
 """
 
 import rospy
