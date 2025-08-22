@@ -1,6 +1,6 @@
 # Servo Controller ROS Package
 
-Author: Treggon Owens
+Author: Treggon Owens for W8less.io
 
 This package provides ROS integration for controlling a **16-channel PCA9685 servo board** via an Arduino Uno. It also reads **two PWM input channels** and provides a heartbeat mechanism for safety.
 

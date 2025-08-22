@@ -1,8 +1,9 @@
 /*
  * servo_controller.ino
- * Author: Treggon Owens
+ * Author: Treggon Owens for W8less.io
  * Description: ROS-integrated Arduino code for controlling 16-channel PCA9685 servos,
  * reading 2 PWM inputs, with OE pin safety, watchdog timeout, and heartbeat mechanism.
+ * 8/22/2025 Created
  */
 
 #include <Wire.h>
